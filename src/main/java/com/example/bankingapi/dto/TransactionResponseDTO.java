@@ -17,5 +17,6 @@ public record TransactionResponseDTO(
         String sourceAccountNumber,
         String destinationAccountNumber
 
-) {
+)
+{
 }
