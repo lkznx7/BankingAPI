@@ -1,4 +1,6 @@
-﻿package com.example.bankingapi.dto;
+package com.example.bankingapi.dto;
 
-public record AccountRequestDTO() {
+import com.example.bankingapi.entity.enums.AccountType;
+
+public record AccountRequestDTO(AccountType accountType) {
 }

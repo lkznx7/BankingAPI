@@ -1,4 +1,4 @@
-﻿package com.example.bankingapi.controller;
+package com.example.bankingapi.controller;
 
 public class AccountController {
 }

@@ -1,4 +1,4 @@
-﻿package com.example.bankingapi.security;
+package com.example.bankingapi.security;
 
 public class SecurityConfig {
 }

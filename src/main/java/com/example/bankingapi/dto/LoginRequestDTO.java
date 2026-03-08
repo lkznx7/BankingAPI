@@ -1,4 +1,8 @@
-﻿package com.example.bankingapi.dto;
+package com.example.bankingapi.dto;
 
-public record LoginRequestDTO() {
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Size;
+
+public record LoginRequestDTO(@NotNull @Email String email , @NotNull @Size(min = 8, max = 20) String password) {
 }

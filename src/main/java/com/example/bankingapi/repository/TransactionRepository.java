@@ -1,4 +1,9 @@
-﻿package com.example.bankingapi.repository;
+package com.example.bankingapi.repository;
 
-public interface TransactionRepository {
+import com.example.bankingapi.entity.Transaction;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import java.util.UUID;
+
+public interface TransactionRepository extends JpaRepository<Transaction, UUID> {
 }

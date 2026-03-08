@@ -1,4 +1,4 @@
-﻿package com.example.bankingapi.config;
+package com.example.bankingapi.config;
 
 public class WebConfig {
 }

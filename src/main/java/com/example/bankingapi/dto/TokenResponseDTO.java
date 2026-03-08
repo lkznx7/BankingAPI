@@ -1,4 +1,4 @@
-﻿package com.example.bankingapi.dto;
+package com.example.bankingapi.dto;
 
-public record TokenResponseDTO () {
+public record TokenResponseDTO (String token , String type) {
 }

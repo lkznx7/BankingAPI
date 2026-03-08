@@ -1,4 +1,4 @@
-﻿package com.example.bankingapi.service;
+package com.example.bankingapi.service;
 
 public class AuthService {
 }
