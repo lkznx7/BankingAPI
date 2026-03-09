@@ -7,5 +7,5 @@ import jakarta.validation.constraints.Size;
 
 public record UserRegisterDTO(@NotNull String name
         , @NotNull @Email String email
-        , @NotNull @Size(min = 8, max = 20) String password) {
+        , @NotNull @Size(min = 8, max = 256) String password) {
 }
